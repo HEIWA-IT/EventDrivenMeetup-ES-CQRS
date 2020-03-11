@@ -22,7 +22,7 @@ class RoomAvailabilityTest {
                 RoomAdded(35),
                 RoomAdded(113))
 
-        val roomAvailability = projectRoomAvailability(roomsAdded, 35)
+        val roomAvailability = projectAvailableRoom(roomsAdded, 35)
         Assertions.assertThat(roomAvailability).isTrue()
     }
 }
